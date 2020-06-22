@@ -1,5 +1,3 @@
-Nume: Serboi D. Florea-Dan
-Grupa si seria: 315CB
 Piesele au fost memorate in variabile de tip unsigned long long pentru a facilita calculele cu ele si deplasarile pe parcursul unui joc.
 In cod sunt folosite functii pentru ca algoritmul sa fie mai usor de urmarit si pentru a nu repeta obsesiv anumite instructiuni, fiecare functie fiind responsabila de rezolvarea unei anumite bucati de cod, bine-delimitata de celelalte.
 Prima functie folosita, "afisare_harta" este folosita pentru a afisa harta reprezentata de un numar decimal.
