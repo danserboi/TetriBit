@@ -1,0 +1,11 @@
+Nume: Serboi D. Florea-Dan
+Grupa si seria: 315CB
+Piesele au fost memorate in variabile de tip unsigned long long pentru a facilita calculele cu ele si deplasarile pe parcursul unui joc.
+In cod sunt folosite functii pentru ca algoritmul sa fie mai usor de urmarit si pentru a nu repeta obsesiv anumite instructiuni, fiecare functie fiind responsabila de rezolvarea unei anumite bucati de cod, bine-delimitata de celelalte.
+Prima functie folosita, "afisare_harta" este folosita pentru a afisa harta reprezentata de un numar decimal.
+A doua functie folosita, "coliziune", ne returneaza daca piesa intalneste sau nu un obstacol de pe harta.
+A treia functie folosita, "transformare" efectueaza transformarea unei piese in cadrul unei linii, deplasand-o (sau nu) la dreapta sau la stanga, in functie de input-ul primit.
+A patra functie, "elim_linii_complete" se ocupa de eliminarea liniilor complete de pe harta - in cazul in care acestea apar dupa ce o piesa este asezata - si de numararea acestora.
+A cincea functie, "numar_zerouri" returneaza numarul de biti care au valoarea 0 din harta finala.
+In programul principal, se citesc: harta, numarul de mutari, piesa si transformarile pentru fiecare mutare si in timp ce se citeste, se simuleaza jocul, folosindu-ne de functiile de mai sus si tratand anumite cazuri particulare. Dupa fiecare "etapa" a jocului, se afiseaza harta.
+Dupa terminarea tuturor mutarilor, afisam "GAME OVER!" si scorul calculat dupa formula precizata.
